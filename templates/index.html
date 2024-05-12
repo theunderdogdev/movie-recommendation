@@ -14,6 +14,20 @@
     <script src="/static/scripts/script.js" defer></script>
   </head>
   <body>
+    <nav class="icon_nav">
+      <a class="button icon is-rounded is-active is-relative" href="#">
+        <span class="material-symbols-rounded"> home </span>
+        <span class="icon_label">home</span>
+      </a>
+      <a class="button icon is-rounded is-relative" href="#">
+        <span class="material-symbols-rounded"> person </span>
+        <span class="icon_label">profile</span>
+      </a>
+      <a class="button icon is-rounded is-relative" href="#">
+        <span class="material-symbols-rounded"> logout </span>
+        <span class="icon_label">logout</span>
+      </a>
+    </nav>
     {% block main %} {% endblock main %}
   </body>
 </html>
